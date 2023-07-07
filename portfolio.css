@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #daebe8;
+}
+nav{
+    background-color: #87bdd8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    font-size: 1.2rem;
+}
+nav .right ul{
+    display:flex;
+    list-style: none;
+
+}
+nav .right ul li{
+    margin: 0 20px;
+    padding:7px;
+    text-decoration: none;
+    background-color:#b7d7e8;
+    border-radius: 10px;
+    box-shadow: #bccad6 3px 3px 5px;
+}
+nav .left{
+    padding:7px;
+    background-color:#b7d7e8;
+    border-radius: 10px;
+    margin: 0 20px;
+    box-shadow: #bccad6 3px 3px 5px;
+}
+
+nav .right ul li a{
+    text-decoration: none;
+}
