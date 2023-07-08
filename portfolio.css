@@ -77,4 +77,38 @@ nav .right ul li button{
     margin-right:13vw;
     height:75vh;
 }
-
+/* main section */
+main{
+    margin: 0vh 20vw 0px 20vw;
+}
+.aboutMe{
+    background-color: antiquewhite;
+    margin: 70vh 0px 80px 0px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding:150px 50px;
+}
+.abtMe p{
+    display: flex;
+    justify-content: space-evenly;
+}
+.littleSections{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.myInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding:10px;
+    margin: 30px;
+    border: 1px dashed black;
+}
+.myInfo h5{
+    font-weight: lighter;
+    color: #FD6E0A;
+}
