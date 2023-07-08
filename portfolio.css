@@ -6,6 +6,12 @@
 body{
     background-color: #daebe8;
 }
+header{
+    background-image: url(images/header_bg1.png);
+    background-repeat: no-repeat;
+    background-position: 66% 100%;
+    background-size:initial;
+}
 /* nav related styles.............................. */
 nav{
     display: flex;
