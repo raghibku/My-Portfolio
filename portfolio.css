@@ -52,6 +52,15 @@ nav .right ul li button{
     color: white;
     border-radius: 5px;
 }
+.resumeSum button{
+    padding: 15px;
+    text-decoration: none;
+    background-color: #FD6E0A;
+    font-size:large;
+    color: white;
+    border-radius: 5px;
+    margin: 50px;
+}
 
 /* banner related styles */
 .banner{
@@ -79,16 +88,19 @@ nav .right ul li button{
 }
 /* main section */
 main{
-    margin: 0vh 20vw 0px 20vw;
+    margin: 0vh 13vw 20vh 13vw;
 }
 .aboutMe{
-    background-color: antiquewhite;
-    margin: 70vh 0px 80px 0px;
+    margin: 40vh 0px 30vh 0px;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding:150px 50px;
+    padding:20px 50px;
+    box-shadow: 10px 10px 20px #daebe834;
+}
+.abtMe h3{
+    text-align: center;
 }
 .abtMe p{
     display: flex;
@@ -105,10 +117,66 @@ main{
     justify-content: space-around;
     align-items: center;
     padding:10px;
-    margin: 30px;
-    border: 1px dashed black;
+    margin: 30px 30px 0px 30px;
+    /* border: 1px dashed black; */
 }
 .myInfo h5{
     font-weight: lighter;
     color: #FD6E0A;
+}
+.littleSections2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.myInfo2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding:10px;
+    margin: 30px;
+}
+.WhatIdo{
+    margin: 0vh 0px 80px 0px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px 50px;
+}
+.what h3{
+    text-align: center;
+}
+.resumeSum{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+.twoSections{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+footer{
+    margin: 0vh 13vw 0px 13vw;
+}
+.footerContainer{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 20%;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+form{
+    width: 100%;
+}
+.leftf{
+    width:50%;
 }
